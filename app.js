@@ -1,5 +1,5 @@
 ﻿// Graph API endpoint to show user profile
-var graphApiEndpoint = "https://graph.microsoft.com/v1.0/me/drive/items";
+var graphApiEndpoint = "https://graph.microsoft.com/v1.0/me/drives";
 
 // Graph API scope used to obtain the access token to read user profile
 var graphAPIScopes = ["https://graph.microsoft.com/user.read"];
